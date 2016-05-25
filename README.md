@@ -1,6 +1,10 @@
-# README - OHDSP BUF-DiffToSE-ADAU1966 Release 1.0 #
-
-## Disclaimer ##
+# [Open Hardware DSP Platform](www.ohdsp.org)
+## Differential to single ended buffer for ADAU1966 DAC
+### Revision 1.1
+###### BUF-DiffToSE-ADAU1966 (KiCad 4.0.2-stable)
+---
+# README
+### Disclaimer
 Copyright Paul Janicki 2016
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
@@ -11,13 +15,21 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLU
 
 **Quick summary**
 
-This is Release 1.0 of a differential to single ended active buffer for the ADAU1966 DAC. This is designed as part the Open Hardware DSP Platform. This may or may not be suitable for use in other applications. 
+This is a differential to single ended active buffer for the ADAU1966 DAC. This is designed as part the Open Hardware DSP Platform. This may or may not be suitable for use in other applications. 
 
-This repository contains the KiCad design files (KiCad 4.0.1-stable), manufacturing Gerber/drill files and PDF outputs for this board.
+This repository contains the KiCad design files, manufacturing Gerber/drill files, and PDF/drawing files for this board.
 
+### What is the project folder structure?
+Most folder names are self explanatory. Starting from the top level: \
+*BUF-DiffToSE-ADAU1966*
++ *Bill of Materials*  - This contains the bill of materials in CVS, LibreOffice Calc and XML formats
++ *Drawings*
+    + *PCB* - This contains SVG and PDF outputs of PCB copper layers and assembly drawings
+    + *Schematics* - This contains the PDF schematic drawing
++ *Gerbers* - This contains the PCB Gerbers and drill drawings for manufacture, there is also a zip file ready to send to most manufacturers
++ *KiCad* - This contains the original KiCad schematic and PCB design files
 
 ### How do I get set up? ###
-(Note this is for KiCad releases upto and including 4.0.1-stable)
 
 **Summary of set up**
 
@@ -28,7 +40,7 @@ This repository contains the KiCad design files (KiCad 4.0.1-stable), manufactur
 4. Fire up Kicad
 5. Open the main project file C:\Electronics\OHDSP\BUF-DiffToSE-ADAU1966\Schematics\BUF-DiffToSE-ADAU1966.pro
 6. (Optional) Setup Pcbnew component library as below.
-7. Do as you wish with the project, just keep it under TAPR Open Hardware License
+7. Do as you wish with the project, just keep it under the TAPR Open Hardware License.
 
 Make sure your git setup doesn't exclude files used in the project (like .LIB files) or things may go wrong down the line.
 

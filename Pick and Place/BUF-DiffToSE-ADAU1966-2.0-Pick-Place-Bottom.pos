@@ -1,0 +1,24 @@
+### Module positions - created on 25/05/2016 10:40:35 ###
+### Printed by Pcbnew version kicad 4.0.2-stable
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C211      100n      SMD-0805            69.8500    54.8640  270.0000  bottom
+C212      100n      SMD-0805            69.8500    45.2120  270.0000  bottom
+C217      22u       SMD-0805            61.9760    54.8640  270.0000  bottom
+C218      22u       SMD-0805            61.9760    45.2120  270.0000  bottom
+C318      10u       SMD-1206            34.7980    79.5020  180.0000  bottom
+C323      100n      SMD-0805            34.2900    76.4540  180.0000  bottom
+C327      10n       SMD-0805            36.0680    73.9140  180.0000  bottom
+C355      10u       SMD-1206            34.7980    21.0820  180.0000  bottom
+C359      100n      SMD-0805            34.2900    18.0340  180.0000  bottom
+C363      10n       SMD-0805            36.0680    15.4940  180.0000  bottom
+C373      100n      SMD-0805            17.6020    84.7090  270.0000  bottom
+C374      100n      SMD-0805            10.6170    58.9280  270.0000  bottom
+C375      100n      SMD-0805            10.6170    41.6560   90.0000  bottom
+C376      100n      SMD-0805            17.7290    15.7480   90.0000  bottom
+R349      10        SMD-1206            14.4270    84.0740   90.0000  bottom
+R350      10        SMD-1206             7.6960    58.2930   90.0000  bottom
+R351      10        SMD-1206             7.6960    42.2910  270.0000  bottom
+R352      10        SMD-1206            14.4270    16.3830  270.0000  bottom
+## End
