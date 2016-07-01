@@ -1,4 +1,4 @@
-# [Open Hardware DSP Platform](www.ohdsp.org)
+# [Open Hardware DSP Platform](http://www.ohdsp.org)
 ## Differential to single ended buffer for ADAU1966 DAC
 ### Revision 1.1
 ###### BUF-DiffToSE-ADAU1966 (KiCad 4.0.2-stable)
